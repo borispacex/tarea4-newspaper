@@ -22,9 +22,7 @@
         }
     },
     "autoload-dev": {
-        "classmap": [
-            "tests/"
-        ]
+        "exclude-from-classmap": ["tests/"]
     },
     "config": {
         "preferred-install": "dist",
